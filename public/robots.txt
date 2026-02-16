@@ -1,5 +1,5 @@
 # Kratuxil Official — robots.txt
-# https://Kratuxil-official.org
+# https://kratuxil-official.net
 # Last updated: 2026-02-16
 
 # === Major Search Engine Crawlers (Full Access) ===
@@ -186,5 +186,5 @@ Disallow: /node_modules/
 
 # === Host & Sitemap ===
 
-Host: https://Kratuxil-official.org
+Host: https://kratuxil-official.net
 Sitemap: https://kratuxil-official.netsitemap.xml
