@@ -1,0 +1,190 @@
+# Kratuxil Official — robots.txt
+# https://Kratuxil-official.org
+# Last updated: 2026-02-16
+
+# === Major Search Engine Crawlers (Full Access) ===
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Storebot-Google
+Allow: /
+
+User-agent: Google-InspectionTool
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: YandexImages
+Allow: /
+
+User-agent: Sogou
+Allow: /
+Crawl-delay: 2
+
+User-agent: Exabot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Applebot
+Allow: /
+Crawl-delay: 1
+
+# === Social Media & Preview Bots (Full Access) ===
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+User-agent: Pinterestbot
+Allow: /
+
+User-agent: Snapchat
+Allow: /
+
+# === AI & LLM Crawlers (Allow for visibility) ===
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+Crawl-delay: 2
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# === Default (All Other Bots) ===
+
+User-agent: *
+Allow: /
+Crawl-delay: 3
+
+# === Block SEO Scrapers / Spam Bots ===
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: ZoominfoBot
+Disallow: /
+
+User-agent: Screaming Frog SEO Spider
+Disallow: /
+
+User-agent: SeekportBot
+Disallow: /
+
+User-agent: Bytedance
+Disallow: /
+
+User-agent: MegaIndex.ru
+Disallow: /
+
+User-agent: BomboraBot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+# === Protected Areas ===
+
+User-agent: *
+Disallow: /api/
+Disallow: /admin/
+Disallow: /backend/
+Disallow: /*.json$
+Disallow: /assets/*.map$
+Disallow: /src/
+Disallow: /node_modules/
+
+# === Host & Sitemap ===
+
+Host: https://Kratuxil-official.org
+Sitemap: https://kratuxil-official.netsitemap.xml
